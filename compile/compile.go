@@ -6,7 +6,6 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/susji/mre/lex"
 	"github.com/susji/mre/match"
 	"github.com/susji/mre/token"
 )
