@@ -107,7 +107,7 @@ func TestCompileBasic(t *testing.T) {
 					match.NewRune('a'), 5, match.RANGE_UNBOUND), 0)),
 		},
 		{
-			test: "^[-abc\.]+",
+			test: `^[-abc\.]+`,
 			exp: match.NewRoot(
 				match.NewCapture(
 					match.NewOneOrMore(
